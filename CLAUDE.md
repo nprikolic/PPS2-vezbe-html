@@ -78,11 +78,22 @@ mono eyebrow/anotacije. Tokeni su u `:root` svakog fajla.
   naslovnog slajda + veći na završnom slajdu
 - Navigacija: strelice/Space/PageUp/PageDown/Home/End (kliker radi), brojač slajdova
 
+## Podaci o predmetu (potvrđeno od korisnika)
+
+- 1. semestar master studija, 4 ESPB
+- Prisustvo obavezno, dozvoljen 1 izostanak; nema nadoknađivanja. Evidencija:
+  parafiranje naslovne strane godišnjeg zadatka; zadaci se slažu u fasciklu
+  sa mehanizmom (elaborat).
+- Bodovi (ukupno 100): semestralni zadatak/elaborat 40 · pismeni deo ispita 40
+  (zadaci sa vežbi, 2 h) · usmeni deo ispita 20 (test, 1 h). **Kolokvijuma nema.**
+- Kontakt: vežbe nmilovanovic@grf.bg.ac.rs; predmetni nastavnik Vladan Ilić
+  (vilic@grf.bg.ac.rs). Termin konsultacija NAMERNO bez datuma („u dogovoru,
+  početkom semestra") — ne izmišljati ga.
+
 ## Otvorena pitanja / TODO
 
-- `vezba-00.html` ima **22 placeholder-a** `[dopuniti: …]` (klasa `.todo`, crveni
-  chipovi): bodovi, prisustvo, termini kolokvijuma, kontakt. Kad se upišu stvarne
-  vrednosti, ukloniti `<span class="todo">` omotače.
+- `vezba-00.html`: preostao placeholder `[dopuniti: dan, vreme, sala]` za termin
+  vežbi (slajd „Format"). Kad se upiše, ukloniti `<span class="todo">` omotač.
 
 ## Razno
 
