@@ -18,8 +18,8 @@
     --gray-300:#D1CFC5;
     --gray-500:#87867F;
     --gray-700:#3D3D3A;
-    --ulaz:    #3E6B9E;   /* plava — ulaz  (kao u Excel dijagramima) */
-    --izlaz:   #D9962E;   /* žuta  — izlaz (kao u Excel dijagramima) */
+    --ulaz:    #3E6B9E;   /* plava — ulaz  (kao u dijagramima iz materijala) */
+    --izlaz:   #D9962E;   /* žuta  — izlaz (kao u dijagramima iz materijala) */
     --red:     #C04B4B;   /* anotacije Qmax, tsr, dsr */
 
     --serif: ui-serif, Georgia, "Times New Roman", serif;
@@ -318,7 +318,7 @@
       <li>Pojam akumulacije — ulaz, izlaz i ono &scaron;to ostaje u sistemu.</li>
       <li>Vremenska akumulacija — kompletan primer: gara&zcaron;a, 24 &ccaron;asa.</li>
       <li>Prostorna akumulacija — kompletan primer: linija sa 12 stanica, oba smera.</li>
-      <li>Samostalni rad — Postavka 1 u Excel-u (drugi &ccaron;as).</li>
+      <li>Samostalni rad — Postavka 1 (drugi &ccaron;as).</li>
     </ul>
     <div class="footnote">
       Ovaj fajl ostaje dostupan kao referenca — sve formule, tabele i dijagrami
@@ -879,8 +879,9 @@
       </div>
     </div>
     <div class="chips">
-      <span class="chip lean">Postavka-1_Vremenska-akumulacija.xlsx</span>
-      <span class="chip lean">Postavka-1_Prostorna-akumulacija.xlsx</span>
+      <span class="chip lean">Postavka 1 — vremenska akumulacija</span>
+      <span class="chip lean">Postavka 1 — prostorna akumulacija</span>
+      <span class="chip">postavke se dele na &ccaron;asu, na papiru</span>
     </div>
   </div>
 </section>
@@ -891,15 +892,15 @@
 <section class="slide">
   <div class="slide-inner">
     <div class="eyebrow">Samostalni rad &middot; redosled</div>
-    <h2>Preporu&ccaron;eni koraci u Excel-u</h2>
+    <h2>Preporu&ccaron;eni koraci</h2>
     <ul class="next-list">
-      <li>Kumulativi: U = SUM od po&ccaron;etka do tog reda, isto za I.
+      <li>Kumulativi: U i I se dobijaju sabiranjem ulaza odnosno izlaza red po red, od po&ccaron;etka tabele.
         <div class="note">Kontrola: poslednji U i I moraju biti jednaki.</div>
       </li>
-      <li>Akumulacija: Q = U &minus; I, pa MAX(Q) za Q<sub>max</sub>.
+      <li>Akumulacija: Q = U &minus; I za svaki red; najve&cacute;a vrednost je Q<sub>max</sub>.
         <div class="note">Kontrola: prvi i poslednji Q = 0.</div>
       </li>
-      <li>Pokazatelji: Q<sub>u</sub> = SUM(Q), Q<sub>sr</sub>, N = Q<sub>max</sub>/Q<sub>sr</sub>.</li>
+      <li>Pokazatelji: Q<sub>u</sub> = zbir svih Q, pa Q<sub>sr</sub> i N = Q<sub>max</sub>/Q<sub>sr</sub>.</li>
       <li>Te&zcaron;i&scaron;ta: pomo&cacute;ne kolone u&middot;t<sub>k</sub> i i&middot;t<sub>k</sub> (odnosno u&middot;x<sub>i</sub>, i&middot;x<sub>i</sub>) za t<sub>sr</sub> / d<sub>sr</sub>.</li>
       <li>Dijagrami: ulaz/izlaz, kumulativni i Q — oblik treba da odgovara primeru iz ove ve&zcaron;be.</li>
     </ul>

@@ -2,12 +2,17 @@
 
 Slajd-prezentacije za vežbe iz predmeta **Planiranje prostora i saobraćaja 2** (PPS2).
 Biće ukupno ~10 vežbi; svaka se drži u terminu 2×45 min (prvi čas predavanje sa
-primerom, drugi čas samostalni rad studenata na Postavci u Excel-u). Studenti
+primerom, drugi čas samostalni rad studenata na odštampanoj Postavci). Studenti
 koriste sajt kao referencu kod kuće.
 
 - **Live sajt:** https://nprikolic.github.io/PPS2-vezbe-html/ (GitHub Pages, auto-deploy sa `main`)
 - **Repo:** https://github.com/nprikolic/PPS2-vezbe-html
-- **Izvorni materijali** (PDF primeri, Excel postavke): `D:\My Drive\Nastava\PPS2\Vežba X\`
+- **Izvorni materijali** (PDF primeri; Excel fajlovi postavki — samo izvor za štampu): `D:\My Drive\Nastava\PPS2\Vežba X\`
+
+**VAŽNO — postavke su na papiru:** studenti dobijaju odštampane postavke i rade
+zadatke ručno (digitron + pribor za crtanje), namerno — da ne bi koristili AI za
+rešavanje. U prezentacijama NIKAD ne pominjati Excel, fajlove ni rad na računaru
+(izuzetak: vežbe 8–10 koje se po programu drže u računarskoj učionici).
 
 ## Struktura
 
@@ -37,7 +42,7 @@ radi offline. Ne uvoditi CDN biblioteke (MathJax, Chart.js…).
 Tipičan redosled slajdova (videti `vezba-01.html` kao uzor): naslov → plan časa →
 pojam → tamni divider po delovima → formule (kartice) → proračunska tabela →
 dijagrami (SVG) → pokazatelji (metrics grid) → interpretacija → tamni slajd
-„Samostalni rad" sa zadacima iz Postavke → koraci u Excel-u → rezime sa QR-om.
+„Samostalni rad" sa zadacima iz Postavke → koraci izrade → rezime sa QR-om.
 
 **Opisi na index strani (`.vdesc`) moraju biti kratki** — jedna rečenica koja
 imenuje temu/primer (npr. „Garaža i linija javnog prevoza sa 12 stanica."),
@@ -59,7 +64,7 @@ Stil po uzoru na thariqs.github.io/html-effectiveness (09-slide-deck):
 ivory/clay/slate paleta, scroll-snap slajdovi preko celog ekrana, serif naslovi,
 mono eyebrow/anotacije. Tokeni su u `:root` svakog fajla.
 
-- Boje dijagrama (poklapaju se sa Excel dijagramima studenata):
+- Boje dijagrama (plava=ulaz, žuta=izlaz, kao u dijagramima iz nastavnih materijala):
   **ulaz #3E6B9E** (plava), **izlaz #D9962E** (žuta), Q krive `--clay`,
   anotacije (Qmax, tsr, dsr strelice) `#C04B4B`, Qsr isprekidane linije `--olive`
 - Dijagrami: SVG generisan iz nizova podataka pozivom `drawChart(id, opts)` —
