@@ -39,6 +39,10 @@ pojam → tamni divider po delovima → formule (kartice) → proračunska tabel
 dijagrami (SVG) → pokazatelji (metrics grid) → interpretacija → tamni slajd
 „Samostalni rad" sa zadacima iz Postavke → koraci u Excel-u → rezime sa QR-om.
 
+**Opisi na index strani (`.vdesc`) moraju biti kratki** — jedna rečenica koja
+imenuje temu/primer (npr. „Garaža i linija javnog prevoza sa 12 stanica."),
+bez nabrajanja formula i pokazatelja. Nedelja i bodovi idu u `.vmeta` red.
+
 ## Konvencije — JEZIK (obavezno)
 
 - Srpski, **latinica**; specijalna slova kao HTML entiteti (`&scaron;`, `&ccaron;`, `&zcaron;`, `&cacute;`, `&dstrok;`)
