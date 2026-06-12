@@ -57,6 +57,8 @@ bez nabrajanja formula i pokazatelja. Nedelja i bodovi idu u `.vmeta` red.
 - Bez školske godine/semestra na naslovnim slajdovima
 - Decimalni zarez u rezultatima (5,10 h; 1,79), oznake kao u nastavnim materijalima
   (Qmax, Qsr, N, tsr, dsr, γrt, γrx)
+- **Naslovi slajdova trezveni i stručni** — bez marketinških/duhovitih fraza
+  (NE „Tri kolone rešavaju sve", DA „Postupak proračuna")
 
 ## Konvencije — DIZAJN
 
